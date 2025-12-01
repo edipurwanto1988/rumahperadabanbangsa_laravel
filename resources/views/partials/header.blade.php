@@ -1,9 +1,9 @@
 <nav class="fixed top-0 w-full z-50 bg-blue-900">
     <div class="container mx-auto px-6 py-4">
         <div class="flex justify-between items-center">
-            <div class="text-white font-bold text-xl">
+            <a href="https://rumahperadabanbangsa.com" class="text-white font-bold text-xl hover:text-blue-200 transition">
                 <i class="fas fa-home mr-2"></i>RPB Foundation
-            </div>
+            </a>
             <div class="hidden md:flex space-x-6">
                 @foreach($menus as $menu)
                     <a href="{{ $menu->resolved_url }}" 
